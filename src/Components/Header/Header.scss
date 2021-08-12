@@ -1,0 +1,36 @@
+.navbar{
+    position: relative;
+    align-items: center;
+    border-bottom: 1px solid rgba(243,131,67) ;
+    backdrop-filter: blur(10px);
+    z-index: 1;
+    width: 119em;
+    
+}
+.navflex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navflex > h1{
+    color: white;
+    text-shadow: 1px 3px 1px black;
+}
+.letter{
+    color: rgba(243,131,67);
+}
+
+
+.navul{
+    display: flex;
+    
+}
+.navs{
+    display: flex;
+    margin-left: 1em;
+    font-size: large;
+    
+}
+.navs > a{
+    color: white;
+}

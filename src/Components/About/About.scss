@@ -1,0 +1,23 @@
+.me{
+    max-width: 20em;
+    max-height: 20em;
+    border-radius: 5px;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    text-size-adjust: 80px;
+    
+    
+    max-width: 55em;
+    
+}
+
+.description{
+    color: white;
+    text-align: center;
+    padding: 10px;
+}

@@ -1,0 +1,32 @@
+.tittle{
+    margin-bottom: 10px;
+    text-shadow: 5px 8px 8px black;
+    color: rgba(243,131,67);
+}
+
+.cards{
+    
+    color: white;
+    display: flex;
+    align-content: space-around;
+    margin-bottom: 20px;
+    :hover{
+        transform: scale(1.1);
+    }
+}
+
+.card{
+    border: 1px solid rgba(243,131,67);
+    border-radius: 5%;
+    box-shadow: 2px 1px 4px black;
+    padding: 1em;
+    margin-left: 20px;
+    max-width: 20em;
+    background-color: white;
+    text-align: center;
+}
+.project-img{
+    max-width: 11em;
+    max-height: 11em;
+    
+}
