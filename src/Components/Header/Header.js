@@ -15,12 +15,12 @@ const Header2 = () => {
       <header>
         <div className="navbar">
           <div className="navflex">
-            <h1>
+            <h1 className="logo">
               <span className="letter">E</span>zequiel
             </h1>
             <div className="navbtn">
               <ul className="navul">
-                <Btns label="home" href="#" />
+                <Btns label="Home" href="#" />
                 <Btns label="Projects" href="#Projects" />
                 <Btns label="Skills" href="#Skills" />
                 <Btns label="About" href="#About" />

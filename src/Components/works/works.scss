@@ -5,14 +5,20 @@
 }
 
 .cards{
-    
     color: white;
     display: flex;
     align-content: space-around;
-    margin-bottom: 20px;
+    margin-bottom: 70px;
     :hover{
         transform: scale(1.1);
     }
+    @media screen
+        and (max-width: 500px) 
+        and (max-height: 740px) 
+         {
+            flex-direction: column;
+            
+        }
 }
 
 .card{
@@ -24,6 +30,13 @@
     max-width: 20em;
     background-color: white;
     text-align: center;
+    @media screen
+        and (max-width: 500px) 
+        and (max-height: 740px) 
+         {
+            margin-top: 10px;
+            max-height: 18em;
+        }
 }
 .project-img{
     max-width: 11em;
