@@ -11,6 +11,13 @@
             and (-webkit-min-device-pixel-ratio: 1) {
                 width: 84em;
   }
+  @media screen
+        and (max-width: 500px) 
+        and (max-height: 740px) 
+         {
+            width: 22.5em;   
+            
+        }
   
 }
 
@@ -27,13 +34,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    @media screen
-        and (max-width: 500px) 
-        and (max-height: 740px) 
-         {
-            width: 22.5em;
-            
-        }
+    
 }
 .navflex > h1{
     color: white;
