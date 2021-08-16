@@ -2,6 +2,7 @@ import img from '../../Img/logo-fondo-2.png'
 import nube from '../../Img/nubes.png'
 import calc from '../../Img/calculator.png'
 import astro from '../../Img/amigos-2024747_1280.png'
+import suerte from '../../Img/suerte.png'
 
 const Card = (props) => {
     return (
@@ -18,7 +19,6 @@ const Card = (props) => {
 const Works = () => {
     return (
       <>
-        
         <div className="tittle" id="Projects">
           <h1>Projects</h1>
         </div>
@@ -44,7 +44,12 @@ const Works = () => {
             txt="hola"
             href="https://ezewheaterapp.netlify.app"
           />
-          
+          <Card
+            name="Appsorteo"
+            src={suerte}
+            txt="hola"
+            href="https://app-sorteo.netlify.app/"
+          />
         </div>
       </>
     );
